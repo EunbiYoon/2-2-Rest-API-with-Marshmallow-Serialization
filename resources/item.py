@@ -4,7 +4,6 @@ from flask_jwt_extended import jwt_required
 from models.item import ItemModel
 from schemas.item import ItemSchema
 
-BLANK_ERROR = "'{}' cannot be blank."
 NAME_ALREADY_EXISTS = "An item with name '{}' already exists."
 ERROR_INSERTING = "An error occurred while inserting the item."
 ITEM_NOT_FOUND = "Item not found."
